@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AAP_Project_StaffApp",
-    "slug": "AAP_Project_StaffApp",
+    "name": "AAP_Project_Staff",
+    "slug": "AAP_Project_Staff",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "sourceExts": [
+        "js",
+        "json",
+        "ts",
+        "tsx",
+        "jsx",
+        "vue"
+      ]
     }
   }
 }
